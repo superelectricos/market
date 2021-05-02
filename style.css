@@ -92,12 +92,6 @@ body {
     grid-template-columns: 32% 32% 32%;
 }
 
-.card {
-    padding: 10px;
-    border: white !important;
-    border-radius: 10px;
-}
-
 .card:hover {
     background: lightcyan;
 }
@@ -136,6 +130,7 @@ body {
 }
 
 .card {
+    background-color: #027d8c !important;
     box-shadow: 5px 10px 18px #ebf8f8;
 }
 
