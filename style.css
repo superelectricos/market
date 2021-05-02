@@ -122,11 +122,6 @@ body {
 .modal-content {
     opacity: 0.6;
     background-color: limegreen !important;
-    box-shadow: 5px 10px 18px lightgray;
-}
-
-.navbar {
-    box-shadow: 5px 10px 18px lightcyan;
 }
 
 .card {
