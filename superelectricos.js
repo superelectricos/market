@@ -28,8 +28,7 @@ function addVisitsDonate() {
    });
 }
 
-var button = document.getElementById('donate');
-button.addEventListener('click', addVisitsDonate);
+document.getElementById('donate').addEventListener('click', addVisitsDonate);
 
 function getClicksDonate(){
    let clicks;
@@ -48,8 +47,7 @@ function addVisitsArcade() {
    });
 }
 
-var arcade = document.getElementById('arcade');
-arcade.addEventListener('click', addVisitsArcade);
+document.getElementById('arcade').addEventListener('click', addVisitsArcade);
 
 function getClicksArcade(){
    let clicks;
@@ -68,8 +66,7 @@ function addVisitsDarthVader() {
    });
 }
 
-var darthvader = document.getElementById('darthvader');
-darthvader.addEventListener('click', addVisitsDarthVader);
+document.getElementById('darthvader').addEventListener('click', addVisitsDarthVader);
 
 function getClicksDarthVader(){
    let clicks;
@@ -89,8 +86,7 @@ function addVisitsColgante() {
    });
 }
 
-var colgante = document.getElementById('colgante');
-colgante.addEventListener('click', addVisitsColgante);
+document.getElementById('colgante').addEventListener('click', addVisitsColgante);
 
 function getClicksColgante(){
    let clicks;
@@ -109,8 +105,7 @@ function addVisitsReloj() {
    });
 }
 
-var reloj = document.getElementById('reloj');
-reloj.addEventListener('click', addVisitsReloj);
+document.getElementById('reloj').addEventListener('click', addVisitsReloj);
 
 function getClicksReloj(){
    let clicks;
@@ -129,8 +124,7 @@ function addVisitsLlavero() {
    });
 }
 
-var llavero = document.getElementById('llavero');
-llavero.addEventListener('click', addVisitsLlavero);
+document.getElementById('llavero').addEventListener('click', addVisitsLlavero);
 
 function getClicksLlavero(){
    let clicks;
