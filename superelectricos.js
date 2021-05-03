@@ -122,5 +122,25 @@ function getClicksReloj(){
    return clicks;
 }
 
+function addVisitsLlavero() {
+  $.ajax({
+   url:"https://api.countapi.xyz/hit/github.io.superelectricos/llavero",
+   type: "GET"
+   });
+}
+
+var llavero = document.getElementById('llavero');
+llavero.addEventListener('click', addVisitsLlavero);
+
+function getClicksLlavero(){
+   let clicks;
+   $.ajax({
+   url:"https://api.countapi.xyz/get/github.io.superelectricos/llavero",
+   success: function(data) {
+      clicks = data["value"];   }
+   });
+   return clicks;
+}
+
 
 
