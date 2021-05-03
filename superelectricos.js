@@ -29,7 +29,7 @@ function addVisitsDonate() {
 }
 
 var button = document.getElementById('donate');
-button.addEventListener('click', addVisitsDonate())
+button.addEventListener('click', addVisitsDonate);
 
 function getClicksDonate(){
    let clicks;
