@@ -20,3 +20,23 @@ window.addEventListener('load', function(){
       document.getElementById("contador").innerHTML=data["value"];   }
    });
 });
+
+function addVisitsDonate() {
+  $.ajax({
+   url:"https://api.countapi.xyz/hit/github.io.superelectricos/donate",
+   type: "GET"
+   });
+}
+
+var button = document.getElementById('donate');
+button.addEventListener('click', addVisitsDonate)
+
+function getClicksDonate(){
+   let clicks;
+   $.ajax({
+   url:"https://api.countapi.xyz/get/github.io.superelectricos/donate",
+   success: function(data) {
+      clicks = data["value"];   }
+   });
+   return clicks;
+}
